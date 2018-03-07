@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A6DB21EBC3BEE5EFC18F63 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AD415580B4A6B35532456A /* DemoAppDelegate.m */; };
+		2697C9A8D582C19EB30D5FD6 /* MapsDemoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53B4C2097A6AD4A98746495 /* MapsDemoAssets.xcassets */; };
+		675EBCC2776A8AD289063000 /* libPods-GoogleMapsDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F195C9F2ECD58EC1020772 /* libPods-GoogleMapsDemos.a */; };
+		6CC9DED8E8F3CE56B8E94872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21267D205F7EC280F26D97ED /* main.m */; };
+		AA0BAB50203379B700E6C364 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0BAB4F203379B700E6C364 /* Storyboard.storyboard */; };
+		AA0BAB5320337ADD00E6C364 /* FTPanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0BAB5220337ADD00E6C364 /* FTPanoramaViewController.m */; };
+		B96B00239590850A49AC33AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4C119D42CF37317FA0DFA9 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02A7C56A409A0CB977458251 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		21267D205F7EC280F26D97ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FF09A23A7C502E087292BF0 /* Pods-GoogleMapsDemos.default.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsDemos.default.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsDemos/Pods-GoogleMapsDemos.default.xcconfig"; sourceTree = "<group>"; };
+		61F195C9F2ECD58EC1020772 /* libPods-GoogleMapsDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMapsDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658307DB8F671E9CA0B1A2E6 /* GoogleMapsDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4C119D42CF37317FA0DFA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA0BAB4F203379B700E6C364 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AA0BAB5120337ADD00E6C364 /* FTPanoramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPanoramaViewController.h; sourceTree = "<group>"; };
+		AA0BAB5220337ADD00E6C364 /* FTPanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPanoramaViewController.m; sourceTree = "<group>"; };
+		B53B4C2097A6AD4A98746495 /* MapsDemoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MapsDemoAssets.xcassets; sourceTree = "<group>"; };
+		C7AD415580B4A6B35532456A /* DemoAppDelegate.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
+		FCA64CCA86165B04BDDE0A93 /* SDKDemoAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKDemoAPIKey.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9B135C626B0FF8CC12CB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96B00239590850A49AC33AD /* UIKit.framework in Frameworks */,
+				675EBCC2776A8AD289063000 /* libPods-GoogleMapsDemos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D27564BB990E3F72332953D = {
+			isa = PBXGroup;
+			children = (
+				3F84FF5646DF0F79669A6A34 /* Source */,
+				89188BA529E9696AD04AD794 /* Frameworks */,
+				9C667AD7285A7D36180D29BE /* Products */,
+				BE9F697FCB9BEECC6A2B6C8E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3F84FF5646DF0F79669A6A34 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45BAB561C27E46122745337A /* GoogleMapsDemos */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		45BAB561C27E46122745337A /* GoogleMapsDemos */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C56A409A0CB977458251 /* DemoAppDelegate.h */,
+				C7AD415580B4A6B35532456A /* DemoAppDelegate.m */,
+				AA0BAB5120337ADD00E6C364 /* FTPanoramaViewController.h */,
+				AA0BAB5220337ADD00E6C364 /* FTPanoramaViewController.m */,
+				21267D205F7EC280F26D97ED /* main.m */,
+				B53B4C2097A6AD4A98746495 /* MapsDemoAssets.xcassets */,
+				AA0BAB4F203379B700E6C364 /* Storyboard.storyboard */,
+				FCA64CCA86165B04BDDE0A93 /* SDKDemoAPIKey.h */,
+			);
+			path = GoogleMapsDemos;
+			sourceTree = "<group>";
+		};
+		89188BA529E9696AD04AD794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C119D42CF37317FA0DFA9 /* UIKit.framework */,
+				61F195C9F2ECD58EC1020772 /* libPods-GoogleMapsDemos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C667AD7285A7D36180D29BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658307DB8F671E9CA0B1A2E6 /* GoogleMapsDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9F697FCB9BEECC6A2B6C8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FF09A23A7C502E087292BF0 /* Pods-GoogleMapsDemos.default.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F934453EF090BCCB93E78E83 /* GoogleMapsDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D55B92E97A2AAB3D261D4A /* Build configuration list for PBXNativeTarget "GoogleMapsDemos" */;
+			buildPhases = (
+				AC14D83ADCB8D79DBF6EBA9B /* [CP] Check Pods Manifest.lock */,
+				C434996613C0A2FED463783D /* Resources */,
+				06DE6F27AD1DD8E5163683B6 /* Sources */,
+				8B9B135C626B0FF8CC12CB4D /* Frameworks */,
+				7222C1C0F8CBA9F07D840978 /* [CP] Embed Pods Frameworks */,
+				D12CFFA6702E0D8E300C4DF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapsDemos;
+			productName = GoogleMapsDemos;
+			productReference = 658307DB8F671E9CA0B1A2E6 /* GoogleMapsDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E34A01E38954F1DD4BCD39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 80C3BB6A64A9375104C7ACB9 /* Build configuration list for PBXProject "GoogleMapsDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D27564BB990E3F72332953D;
+			productRefGroup = 9C667AD7285A7D36180D29BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F934453EF090BCCB93E78E83 /* GoogleMapsDemos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C434996613C0A2FED463783D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0BAB50203379B700E6C364 /* Storyboard.storyboard in Resources */,
+				2697C9A8D582C19EB30D5FD6 /* MapsDemoAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7222C1C0F8CBA9F07D840978 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsDemos/Pods-GoogleMapsDemos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC14D83ADCB8D79DBF6EBA9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsDemos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D12CFFA6702E0D8E300C4DF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsDemos/Pods-GoogleMapsDemos-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsDemos/Pods-GoogleMapsDemos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DE6F27AD1DD8E5163683B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A6DB21EBC3BEE5EFC18F63 /* DemoAppDelegate.m in Sources */,
+				6CC9DED8E8F3CE56B8E94872 /* main.m in Sources */,
+				AA0BAB5320337ADD00E6C364 /* FTPanoramaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2723CC697F2C564456B7C001 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF09A23A7C502E087292BF0 /* Pods-GoogleMapsDemos.default.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ./GoogleMapsDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(SDKROOT)/System/Library/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GoogleMapsDemos;
+				PRODUCT_NAME = GoogleMapsDemos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				USE_HEADERMAP = NO;
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		C39588D2DC04B7B9CBE846E5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D55B92E97A2AAB3D261D4A /* Build configuration list for PBXNativeTarget "GoogleMapsDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2723CC697F2C564456B7C001 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		80C3BB6A64A9375104C7ACB9 /* Build configuration list for PBXProject "GoogleMapsDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39588D2DC04B7B9CBE846E5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E34A01E38954F1DD4BCD39 /* Project object */;
+}
