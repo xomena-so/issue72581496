@@ -12,7 +12,7 @@ Once you've read the Introduction page, follow the first couple of steps on the
 "Getting Started" page. Specifically;
 
   * Obtain an API key for the demo application, and specify the bundle ID of
-    this demo application as an an 'allowed iOS app'. By default, the bundle ID
+    this demo application as an 'allowed iOS app'. By default, the bundle ID
     is "com.example.GoogleMapsDemos".
 
   * Open the project in Xcode, and update `SDKDemoAPIKey.h` with this key.
